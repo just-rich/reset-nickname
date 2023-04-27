@@ -1,0 +1,14 @@
+{
+  "name": "bot-nickname-reset",
+  "version": "1.0.0",
+  "description": "A Discord bot that resets its nickname to its original username",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "dependencies": {
+    "discord.js": "^14.9.0"
+  }
+}
+
