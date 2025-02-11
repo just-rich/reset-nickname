@@ -1,10 +1,10 @@
 const fs = require('fs');
 
 // Path to the text file with code
-const codeFilePath = 'path/to/code_file.txt';
+const codeFilePath = 'index.js';
 
 // Path to the text file with tokens
-const tokensFilePath = 'path/to/tokens_file.txt';
+const tokensFilePath = 'tokens.txt';
 
 // Read the tokens file into an array
 const tokens = fs.readFileSync(tokensFilePath, 'utf-8').split('\n');
