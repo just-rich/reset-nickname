@@ -11,3 +11,7 @@ This code will take tokens from a .txt and replace the word `token` in the index
 2. Create a `tokens.txt` file with a bot token on it's own line.  
 3. Run `node make-files.js` and it will create a `token.js` file for each token with the code from `index.js` and a bot's token in it.  
 4. Then run `node token1.js` and repeat for however many `token.js` files there are. It will reset the bot's nickname in each server. When it's done printing logs, it's finished.
+
+---
+
+slapped together by [rich](https://richw.xyz) for [NVGSTly](https://nvstly.com)'s [Tickerbots](https://docs.nvstly.com/ticker-bots/ticker-bots)
